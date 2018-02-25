@@ -1,7 +1,4 @@
-
 module.exports = function getLoveTrianglesCount(arr) {
-
-
 	let count = 0;
 	let i;
 	let arr_length = arr.length;	
@@ -10,5 +7,5 @@ module.exports = function getLoveTrianglesCount(arr) {
 			count+=1;
 		}	
 	}
-	return count/3;
+	return Math.floor(count/3);
 };
